@@ -9,4 +9,4 @@ RUN ls -la
 # Run `node /index.js`
 # ENTRYPOINT ["node", "./dist/index.js"]
 RUN chmod 775 ./entrypoint.sh
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["sh", "-c","./entrypoint.sh"]
