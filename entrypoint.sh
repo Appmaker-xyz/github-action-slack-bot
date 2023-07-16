@@ -2,6 +2,8 @@
 
 set -e
 
+env > environment_variables.env
+
 cd /slack-blot
 echo "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*************************"
 
